@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.22;
+contract mycon{
+    int public intvar=-4;
+    int public intrangemax=type(int8).max;
+    int public intrangemin=type(int8).min;
+    uint public uintrangemin=type(uint16).min;
+    uint public uintrangemax=type(uint16).max;
+    uint public unsignedint=4;
+    address public myadd=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+    bool public status=true;
+    string public name="prabha";
+    bytes public namebytes="prabha";
+}
