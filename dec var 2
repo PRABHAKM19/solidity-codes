@@ -1,0 +1,8 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.22;
+contract test 
+{
+    int public a=5;
+    int public b=10;
+    string public x='prabha';
+}
