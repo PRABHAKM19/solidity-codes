@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.22;
+contract test 
+{
+    //visibilities
+    //public-> it is a function which is publicly default and can access to any third party contract
+    //private-> it is a function which is called only by the main contract itself
+    //external-> this will only be called by the third party
+    //internal-> this will be called only by main function
+}
