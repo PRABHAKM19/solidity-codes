@@ -1,0 +1,9 @@
+//SPDX-License-Identifier: MIT
+pragma solidity 0.8.22;
+contract mywish{
+    int public var1=5;
+    int public var2=6;
+    address public myadd=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+    bytes public namebyte="Prabha";
+    string public name="Prabha";
+    }
