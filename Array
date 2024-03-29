@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.22;
+contract test
+{
+    int[]public array;
+ 
+    function add(int _value)public{
+        array.push(_value);
+ }
+    function pop()public{
+        array.pop();
+    }
+    function arr()public view returns (int[] memory){
+        return array;
+    }
+
+}
