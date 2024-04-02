@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.3;
+contract test{
+    string public name1='prabha';
+    string public name2='akshatha';
+    int public var1=5;
+    int public var2=-6;
+    uint public var3=4;
+    bytes public name3='sathana';
+    address public add1=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+}
