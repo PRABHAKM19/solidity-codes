@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.22;
+
+contract operation{
+    function logAND(bool a,bool b)public pure returns(bool){
+        return a && b;
+    }
+
+    function logOR(bool a,bool b)public pure returns(bool){
+        return a || b;
+    }
+
+    function logNOT(bool a)public pure returns(bool){
+        return !a;
+    }
+}
