@@ -1,0 +1,20 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.22;
+
+contract operation{
+
+    function equal(uint a,uint b)public pure returns(bool){
+        return a == b;
+    }
+
+    function notequal(uint a,uint b)public pure returns(bool){
+        return a!=b;
+    }
+    function greorequal(uint a,uint b)public pure returns(bool){
+        return a>=b;
+    }
+
+    function lessorequal(uint a,uint b)public pure returns(bool){
+        return a<=b;
+    }
+}
