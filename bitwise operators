@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.22;
+
+contract operation{
+    function bitOR(uint a,uint b)public pure returns(uint){
+        return a | b;
+    }
+
+    function bitAND(uint a,uint b)public pure returns(uint){
+        return a & b;
+    }
+    
+    function bitNOT(uint a,uint b)public pure returns(uint){
+        return ~a;
+    }
+}
