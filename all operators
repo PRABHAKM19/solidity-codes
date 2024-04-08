@@ -1,0 +1,42 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.22;
+contract test{
+
+    function add(uint a,uint b)public pure returns(uint){
+        return a+b;
+    }
+
+    function sub(uint a,uint b)public pure returns(uint){
+        return a - b;
+    }
+
+    function mul(uint a,uint b)public pure returns(uint){
+        return a * b;
+    }
+
+    function div(uint a,uint b)public pure returns(uint){
+        return a / b;
+    }
+
+    function greaterthanequal(uint a,uint b)public pure returns(bool){
+        return a >= b;
+    }
+
+    function lessthanequal(uint a,uint b)public pure returns(bool){
+        return a <= b;
+    }
+
+    function equal(uint a,uint b)public pure returns(bool){
+        return a == b;
+    }
+
+    function leftshift(uint8 a,uint8 b)public pure returns(uint8){
+        return a << b;
+    }
+
+    function rightshift(uint a,uint b)public pure returns(uint){
+        return a >> b;
+    }
+
+
+}
