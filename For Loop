@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.22;
+contract loop{
+    uint public  _no1;
+
+    function f(uint _number)public returns(string memory){
+       for(uint i=0;i<_number;i++){
+        _no1++;
+       }
+        return "value found!";
+    }
+
+}
