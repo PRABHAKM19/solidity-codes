@@ -1,0 +1,20 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.0;
+contract bank{
+    int balance;
+
+    constructor(){
+        balance=1;
+    }
+    function getbalance()public view returns(int){
+        return balance;
+    }
+
+    function withdraw(int amount)public {
+        balance=balance-amount;
+    }
+
+    function deposit(int amount)public{
+        balance=balance+amount;
+    }
+}
